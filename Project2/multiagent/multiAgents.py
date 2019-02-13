@@ -13,8 +13,8 @@
 
 
 from util import manhattanDistance
-from game import Directions
-import random, util
+from game import Directions, Actions
+import random, util, Queue
 
 from game import Agent
 
@@ -205,7 +205,61 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
           Returns the minimax action using self.depth and self.evaluationFunction
         """
         "*** YOUR CODE HERE ***"
-        util.raiseNotDefined()
+        return alphabeta(gameState, self.depth, self.evaluationFunction)[0]
+
+def alphabeta(gameState, maxDepth, evalFunc):
+  return evaluate_state_ab(gameState, 0, maxDepth, 0, evalFunc, -float("inf"), float("inf"))
+
+def evaluate_state_ab(gameState, agentId, maxDepth, depth, evalFunc, a, b):
+  if agentId == gameState.getNumAgents() - 1:
+    depth += 1
+  agentId %= gameState.getNumAgents()
+  if agentId == 0:
+    return max_action_ab(gameState, agentId, maxDepth, depth, evalFunc, a, b)
+  else:
+    return min_action_ab(gameState, agentId, maxDepth, depth, evalFunc, a, b)
+
+def max_action_ab(gameState, agentId, maxDepth, depth, evalFunc, a, b):
+  maxAction = None
+  maxValue = -float("inf")
+
+  actions = gameState.getLegalActions(agentId)
+  if len(actions) == 0:
+    return None, evalFunc(gameState)
+
+  for action in actions:
+    val = evaluate_state_ab(gameState.generateSuccessor(agentId, action), agentId + 1, maxDepth, depth, evalFunc, a, b)[1]
+    if val > maxValue:
+      maxValue = val
+      maxAction = action
+    if maxValue > b:
+      return maxAction, maxValue
+    a = max(a, maxValue)
+  
+  return maxAction, maxValue
+
+def min_action_ab(gameState, agentId, maxDepth, depth, evalFunc, a, b):
+  minAction = None
+  minValue = float("inf")
+
+  actions = gameState.getLegalActions(agentId)
+  if len(actions) == 0:
+    return None, evalFunc(gameState)
+
+  for action in actions:
+    if depth < maxDepth:
+      val = evaluate_state_ab(gameState.generateSuccessor(agentId, action), agentId + 1, maxDepth, depth, evalFunc, a, b)[1]
+    else:
+      val = evalFunc(gameState.generateSuccessor(agentId, action))
+    if val < minValue:
+      minValue = val
+      minAction = action
+    if minValue < a:
+      return minAction, minValue
+    b = min(b, minValue)
+
+  
+  return minAction, minValue
 
 class ExpectimaxAgent(MultiAgentSearchAgent):
     """
@@ -220,7 +274,53 @@ class ExpectimaxAgent(MultiAgentSearchAgent):
           legal moves.
         """
         "*** YOUR CODE HERE ***"
-        util.raiseNotDefined()
+        # if len(gameState.getFood().asList()) == 25:
+        #   print "34"
+        return expectimax(gameState, self.depth, self.evaluationFunction)[0]
+
+def expectimax(gameState, maxDepth, evalFunc):
+  return evaluate_state_em(gameState, 0, maxDepth, 0, evalFunc)
+
+def evaluate_state_em(gameState, agentId, maxDepth, depth, evalFunc):
+  if agentId == gameState.getNumAgents() - 1:
+    depth += 1
+  agentId %= gameState.getNumAgents()
+  if agentId == 0:
+    return max_action_em(gameState, agentId, maxDepth, depth, evalFunc)
+  else:
+    return expect_action(gameState, agentId, maxDepth, depth, evalFunc)
+
+def max_action_em(gameState, agentId, maxDepth, depth, evalFunc):
+  maxAction = None
+  maxValue = -float("inf")
+
+  actions = gameState.getLegalActions(agentId)
+  if len(actions) == 0:
+    return None, evalFunc(gameState)
+
+  for action in actions:
+    val = evaluate_state_em(gameState.generateSuccessor(agentId, action), agentId + 1, maxDepth, depth, evalFunc)[1]
+    if val > maxValue:
+      maxValue = val
+      maxAction = action
+  
+  return maxAction, maxValue
+
+def expect_action(gameState, agentId, maxDepth, depth, evalFunc):
+  total = 0.0
+
+  actions = gameState.getLegalActions(agentId)
+  if len(actions) == 0:
+    return None, evalFunc(gameState)
+
+  for action in actions:
+    if depth < maxDepth:
+      val = evaluate_state_em(gameState.generateSuccessor(agentId, action), agentId + 1, maxDepth, depth, evalFunc)[1]
+    else:
+      val = evalFunc(gameState.generateSuccessor(agentId, action))
+    total += val
+  
+  return None, total/len(actions)
 
 def betterEvaluationFunction(currentGameState):
     """
@@ -229,9 +329,93 @@ def betterEvaluationFunction(currentGameState):
 
       DESCRIPTION: <write something here so we know what you did>
     """
+
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    # pos = currentGameState.getPacmanPosition()
+    foodList = currentGameState.getFood().asList()
+    # if len(foodList) == 0:
+    #   return 1
+    # foodHeuristic = []
+    # for food in foodList:
+    #     # gets the manhattan distance of each item of food
+    #     foodHeuristic.append((manhattanDistance(pos, food)))
+    # foodHeuristic = min(foodHeuristic)
+    # adjustedFood = (1/float(foodHeuristic)) * .95
+
+    ghostHeuristic = []
+    for ghost in currentGameState.getGhostStates():
+      ghostHeuristic.append(manhattanDistance(currentGameState.getPacmanPosition(), ghost.getPosition()) + 1)
+    ghostHeuristic = min(ghostHeuristic)
+
+    if ghostHeuristic <= 3:
+      return -2000
+
+    #scareTimes = sum([ghost.scaredTimer for ghost in currentGameState.getGhostStates()])
+
+    # if ghostHeuristic > 4:
+    #   adjustedGhost = 0
+    # else:
+    #   adjustedGhost = 1
+
+    # adjustedScore = currentGameState.getScore()/200
+
+    adjustedFood = -len(foodList)
+
+    if adjustedFood == 0:
+      return currentGameState.getScore() # winner!
+    else:
+      adjustedDist = (1/float(NearestFood(currentGameState))) * 0.9
+
+    adjustedScore = currentGameState.getScore()/100
+
+    adjustedGhost = 1/float(ghostHeuristic)
+
+    total = adjustedFood + adjustedDist + adjustedScore
+
+    return total
 
 # Abbreviation
 better = betterEvaluationFunction
 
+def NearestFood(gameState):
+  foodList = gameState.getFood().asList()
+
+  currentPos = gameState.getPacmanPosition()
+  for action in gameState.getLegalActions():
+    x, y = Actions.directionToVector(action)
+    newPos = (currentPos[0] + x, currentPos[1] + y)
+    if newPos in foodList:
+      return 1
+
+  target = None
+  targetDis = 10000000
+  for food in foodList:
+    dis = manhattanDistance(gameState.getPacmanPosition(), food)
+    if dis < targetDis:
+      target = food
+      targetDis = dis
+
+  queue = Queue.PriorityQueue()
+
+  dis = manhattanDistance(target, gameState.getPacmanPosition())
+  queue.put((dis, (gameState, 1, "Stop")))
+
+  while not queue.empty():
+    state, depth, prevAct = queue.get()[1]
+    if depth > 100:
+      return 1000
+    actions = state.getLegalActions()
+    if "Stop" in actions: 
+      actions.remove("Stop")
+    rev = Actions.reverseDirection(prevAct)
+    if rev in actions:
+      actions.remove(rev)
+    for act in actions:
+      newState = state.generatePacmanSuccessor(act)
+      newPos = newState.getPacmanPosition()
+      if newPos in foodList:
+        return depth
+      dis = manhattanDistance(target, newPos)
+      queue.put((dis, (newState, depth + 1, act)))
+
+  return 1000
