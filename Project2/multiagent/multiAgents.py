@@ -77,7 +77,8 @@ class ReflexAgent(Agent):
 
         foodList = currentGameState.getFood().asList()
         if len(foodList) == 0:
-          return 1
+          return 1 # makes sure pacman eats all his food
+
         foodHeuristic = []
         for food in foodList:
             # gets the manhattan distance of each item of food
@@ -152,6 +153,8 @@ def minimax(gameState, maxDepth, evalFunc):
   return evaluate_state(gameState, 0, maxDepth, 0, evalFunc)
 
 def evaluate_state(gameState, agentId, maxDepth, depth, evalFunc):
+  # increments the depth before the final agent makes their move
+  # makes sure eval function is used in the right place
   if agentId == gameState.getNumAgents() - 1:
     depth += 1
   agentId %= gameState.getNumAgents()
@@ -166,10 +169,11 @@ def max_action(gameState, agentId, maxDepth, depth, evalFunc):
 
   actions = gameState.getLegalActions(agentId)
   if len(actions) == 0:
+    # if there are no moves evaluate here
     return None, evalFunc(gameState)
 
   for action in actions:
-    act, val = evaluate_state(gameState.generateSuccessor(agentId, action), agentId + 1, maxDepth, depth, evalFunc)
+    val = evaluate_state(gameState.generateSuccessor(agentId, action), agentId + 1, maxDepth, depth, evalFunc)[1]
     if val > maxValue:
       maxValue = val
       maxAction = action
@@ -186,7 +190,7 @@ def min_action(gameState, agentId, maxDepth, depth, evalFunc):
 
   for action in actions:
     if depth < maxDepth:
-      act, val = evaluate_state(gameState.generateSuccessor(agentId, action), agentId + 1, maxDepth, depth, evalFunc)
+      val = evaluate_state(gameState.generateSuccessor(agentId, action), agentId + 1, maxDepth, depth, evalFunc)[1]
     else:
       val = evalFunc(gameState.generateSuccessor(agentId, action))
     if val < minValue:
@@ -274,8 +278,6 @@ class ExpectimaxAgent(MultiAgentSearchAgent):
           legal moves.
         """
         "*** YOUR CODE HERE ***"
-        # if len(gameState.getFood().asList()) == 25:
-        #   print "34"
         return expectimax(gameState, self.depth, self.evaluationFunction)[0]
 
 def expectimax(gameState, maxDepth, evalFunc):
@@ -327,29 +329,33 @@ def betterEvaluationFunction(currentGameState):
       Your extreme ghost-hunting, pellet-nabbing, food-gobbling, unstoppable
       evaluation function (question 5).
 
-      DESCRIPTION: <write something here so we know what you did>
+      DESCRIPTION: <Combines number of food items left, maze distance to the nearest food item, 
+      number of capsule items left, and the score into one ultimate heuristic>
     """
 
     "*** YOUR CODE HERE ***"
     foodList = currentGameState.getFood().asList()
 
+    # gets distance to nearest ghost
     ghostHeuristic = []
     for ghost in currentGameState.getGhostStates():
       ghostHeuristic.append(manhattanDistance(currentGameState.getPacmanPosition(), ghost.getPosition()) + 1)
     ghostHeuristic = min(ghostHeuristic)
+    # makes sure pacman never gets too close to a ghost
+    if ghostHeuristic <= 3:
+      return -2000
 
+    # the number of pellets/capsules left
     pelletList = currentGameState.getCapsules()
     numPellets = len(pelletList)
     pelletHeuristic = numPellets * -100
-
-    if ghostHeuristic <= 3:
-      return -2000
 
     adjustedFood = -len(foodList)
 
     if adjustedFood == 0:
       return currentGameState.getScore() # winner!
 
+    # finds closest food via manhattan
     target = None
     targetDis = 10000000
     for food in foodList:
@@ -358,18 +364,14 @@ def betterEvaluationFunction(currentGameState):
         target = food
         targetDis = dis
     
+    # maze distance of nearest food
     adjustedDist = (1/float(MazeDistance(currentGameState, target))) * 0.9
 
     adjustedScore = currentGameState.getScore()/100
 
-    #adjustedGhost = 1/float(ghostHeuristic)
-
     total = adjustedFood + adjustedDist + adjustedScore + pelletHeuristic
 
     return total
-
-# Abbreviation
-better = betterEvaluationFunction
 
 def MazeDistance(gameState, target):
   """Gets the maze distance between Pacman and target, using maze information from gameState"""
@@ -405,3 +407,7 @@ def MazeDistance(gameState, target):
       queue.put((dis, (newState, depth + 1, act)))
 
   return 1000
+
+
+# Abbreviation
+better = betterEvaluationFunction
