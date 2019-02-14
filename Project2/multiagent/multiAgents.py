@@ -331,69 +331,55 @@ def betterEvaluationFunction(currentGameState):
     """
 
     "*** YOUR CODE HERE ***"
-    # pos = currentGameState.getPacmanPosition()
     foodList = currentGameState.getFood().asList()
-    # if len(foodList) == 0:
-    #   return 1
-    # foodHeuristic = []
-    # for food in foodList:
-    #     # gets the manhattan distance of each item of food
-    #     foodHeuristic.append((manhattanDistance(pos, food)))
-    # foodHeuristic = min(foodHeuristic)
-    # adjustedFood = (1/float(foodHeuristic)) * .95
 
     ghostHeuristic = []
     for ghost in currentGameState.getGhostStates():
       ghostHeuristic.append(manhattanDistance(currentGameState.getPacmanPosition(), ghost.getPosition()) + 1)
     ghostHeuristic = min(ghostHeuristic)
 
+    pelletList = currentGameState.getCapsules()
+    numPellets = len(pelletList)
+    pelletHeuristic = numPellets * -100
+
     if ghostHeuristic <= 3:
       return -2000
-
-    #scareTimes = sum([ghost.scaredTimer for ghost in currentGameState.getGhostStates()])
-
-    # if ghostHeuristic > 4:
-    #   adjustedGhost = 0
-    # else:
-    #   adjustedGhost = 1
-
-    # adjustedScore = currentGameState.getScore()/200
 
     adjustedFood = -len(foodList)
 
     if adjustedFood == 0:
       return currentGameState.getScore() # winner!
-    else:
-      adjustedDist = (1/float(NearestFood(currentGameState))) * 0.9
+
+    target = None
+    targetDis = 10000000
+    for food in foodList:
+      dis = manhattanDistance(currentGameState.getPacmanPosition(), food)
+      if dis < targetDis:
+        target = food
+        targetDis = dis
+    
+    adjustedDist = (1/float(MazeDistance(currentGameState, target))) * 0.9
 
     adjustedScore = currentGameState.getScore()/100
 
-    adjustedGhost = 1/float(ghostHeuristic)
+    #adjustedGhost = 1/float(ghostHeuristic)
 
-    total = adjustedFood + adjustedDist + adjustedScore
+    total = adjustedFood + adjustedDist + adjustedScore + pelletHeuristic
 
     return total
 
 # Abbreviation
 better = betterEvaluationFunction
 
-def NearestFood(gameState):
-  foodList = gameState.getFood().asList()
+def MazeDistance(gameState, target):
+  """Gets the maze distance between Pacman and target, using maze information from gameState"""
 
   currentPos = gameState.getPacmanPosition()
   for action in gameState.getLegalActions():
     x, y = Actions.directionToVector(action)
     newPos = (currentPos[0] + x, currentPos[1] + y)
-    if newPos in foodList:
+    if newPos == target:
       return 1
-
-  target = None
-  targetDis = 10000000
-  for food in foodList:
-    dis = manhattanDistance(gameState.getPacmanPosition(), food)
-    if dis < targetDis:
-      target = food
-      targetDis = dis
 
   queue = Queue.PriorityQueue()
 
@@ -402,8 +388,8 @@ def NearestFood(gameState):
 
   while not queue.empty():
     state, depth, prevAct = queue.get()[1]
-    if depth > 100:
-      return 1000
+    if depth > 50:
+      break
     actions = state.getLegalActions()
     if "Stop" in actions: 
       actions.remove("Stop")
@@ -413,7 +399,7 @@ def NearestFood(gameState):
     for act in actions:
       newState = state.generatePacmanSuccessor(act)
       newPos = newState.getPacmanPosition()
-      if newPos in foodList:
+      if newPos == target:
         return depth
       dis = manhattanDistance(target, newPos)
       queue.put((dis, (newState, depth + 1, act)))
