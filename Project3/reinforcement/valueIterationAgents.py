@@ -47,9 +47,9 @@ class ValueIterationAgent(ValueEstimationAgent):
         "*** YOUR CODE HERE ***"
 
         for _ in range(0, iterations):
+            new_values = self.values.copy()
             for s in mdp.getStates():
-                max_value = 0
-                new_values = self.values.copy()
+                max_value = float("-inf")
                 for a in mdp.getPossibleActions(s):
                     temp_sum = 0
                     for s_, prob in mdp.getTransitionStatesAndProbs(s, a):
@@ -59,6 +59,7 @@ class ValueIterationAgent(ValueEstimationAgent):
                     if temp_sum > max_value:
                         max_value = temp_sum
                         new_values[s] = max_value
+            self.values = new_values
 
 
 
@@ -77,7 +78,7 @@ class ValueIterationAgent(ValueEstimationAgent):
         "*** YOUR CODE HERE ***"
         q = 0
         for s, prob in self.mdp.getTransitionStatesAndProbs(state, action):
-            q += self.values[s] * prob
+            q += (self.discount * self.values[s] + self.mdp.getReward(state, action, s)) * prob
         return q
 
     def computeActionFromValues(self, state):
@@ -94,7 +95,7 @@ class ValueIterationAgent(ValueEstimationAgent):
             return None
         else:
             max_action = None
-            max_val = -1
+            max_val = float("-inf")
             for a in self.mdp.getPossibleActions(state):
                 val = self.computeQValueFromValues(state, a)
                 if val > max_val:
