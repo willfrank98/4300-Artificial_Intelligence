@@ -47,8 +47,10 @@ class ValueIterationAgent(ValueEstimationAgent):
         "*** YOUR CODE HERE ***"
 
         for _ in range(0, iterations):
+            # copy values to do batch update
             new_values = self.values.copy()
             for s in mdp.getStates():
+                # gets value of best action
                 max_value = float("-inf")
                 for a in mdp.getPossibleActions(s):
                     temp_sum = 0
@@ -59,6 +61,7 @@ class ValueIterationAgent(ValueEstimationAgent):
                     if temp_sum > max_value:
                         max_value = temp_sum
                         new_values[s] = max_value
+            # updates values
             self.values = new_values
 
 
