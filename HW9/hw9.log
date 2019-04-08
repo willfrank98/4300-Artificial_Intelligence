@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.2.7)  7 APR 2019 18:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.6960 64-bit) (preloaded format=pdflatex 2019.2.7)  8 APR 2019 17:32
 entering extended mode
 **./hw9.tex
 (hw9.tex
@@ -537,18 +537,18 @@ Package zref Info: New property: mdf@pagevalue on input line 895.
 ) (hw9.aux)
 \openout1 = `hw9.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 ("C:\Users\Will\AppData\Local\Programs\MiKTeX 2.9\tex/context/base\supp-pdf.mki
 i"
@@ -582,38 +582,50 @@ G,.JBIG2,.JB2,.eps]
 )
 \c@lstlisting=\count281
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 22.
+LaTeX Info: Redefining \selectfont on input line 23.
 \AtBeginShipoutBox=\box55
 \authorwidth=\skip136
 \fontheight=\skip137
 
-Overfull \hbox (2.9419pt too wide) in paragraph at lines 52--58
+Overfull \hbox (2.9419pt too wide) in paragraph at lines 84--90
 \OT1/cmr/m/n/10 for-tu-nately, Clarence was the one who bought the soda ma-chin
 e in the lab. He went for the cheap-est model. 
  []
 
 [1
 
-{C:/Users/Will/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (hw9.aux) ) 
+{C:/Users/Will/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<state-lattice.png, id=14, 479.99326pt x 190.00987pt>
+File: state-lattice.png Graphic file (type png)
+<use state-lattice.png>
+Package pdftex.def Info: state-lattice.png  used on input line 109.
+(pdftex.def)             Requested size: 383.99512pt x 152.00809pt.
+ [2 <./state-lattice.png>] [3] (hw9.aux) ) 
 Here is how much of TeX's memory you used:
- 14274 strings out of 492946
- 259825 string characters out of 3126711
- 311807 words of memory out of 3000000
- 18087 multiletter control sequences out of 15000+200000
- 534051 words of font info for 30 fonts, out of 3000000 for 9000
+ 14285 strings out of 492946
+ 259973 string characters out of 3126711
+ 311822 words of memory out of 3000000
+ 18094 multiletter control sequences out of 15000+200000
+ 534670 words of font info for 32 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,6n,65p,853b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
-<
+ 47i,8n,65p,853b,317s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Will/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Will/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Wil
+l/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 C:/Users/Will/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmbx10.pfb><C:/Users/Will/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb><C:/Users/Will/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Will/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Will/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Will/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on hw9.pdf (1 page, 79343 bytes).
+cmmi10.pfb><C:/Users/Will/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmmi7.pfb><C:/Users/Will/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><C:/Users/Will/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Will/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Will/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Will
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:
+/Users/Will/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+ti10.pfb>
+Output written on hw9.pdf (3 pages, 147240 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
+ 57 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
