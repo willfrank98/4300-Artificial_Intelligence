@@ -1,0 +1,322 @@
+{\rtf1\ansi\deff4\adeflang1025
+{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Arial;}{\f3\froman\fprq2\fcharset0 Liberation Serif{\*\falt Times New Roman};}{\f4\froman\fprq0\fcharset128 Times New Roman;}{\f5\froman\fprq0\fcharset128 Liberation Serif{\*\falt Times New Roman};}{\f6\fnil\fprq2\fcharset0 Times New Roman;}{\f7\fnil\fprq2\fcharset0 Liberation Serif{\*\falt Times New Roman};}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green0\blue1;}
+{\stylesheet{\s0\snext0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033 Normal;}
+{\*\cs15\snext15 Numbering Symbols;}
+{\s16\sbasedon0\snext17\ql\nowidctlpar\hyphpar0\sb240\sa120\keepn\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs28\lang1033 Heading;}
+{\s17\sbasedon0\snext17\sl276\slmult1\ql\nowidctlpar\hyphpar0\sb0\sa140\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033 Text Body;}
+{\s18\sbasedon17\snext18\sl276\slmult1\ql\nowidctlpar\hyphpar0\sb0\sa140\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033 List;}
+{\s19\sbasedon0\snext19\ql\nowidctlpar\hyphpar0\sb120\sa120\ltrpar\cf1\i\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033 Caption;}
+{\s20\sbasedon0\snext20\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033 Index;}
+{\s21\sbasedon0\snext21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033 Table Contents;}
+{\s22\sbasedon21\snext22\qc\nowidctlpar\hyphpar0\ltrpar\cf1\b\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033 Table Heading;}
+}{\*\listtable{\list\listtemplateid1
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'00.;}{\levelnumbers\'01;}\fi-360\li720}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'01.;}{\levelnumbers\'01;}\fi-360\li1080}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'02.;}{\levelnumbers\'01;}\fi-360\li1440}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'03.;}{\levelnumbers\'01;}\fi-360\li1800}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'04.;}{\levelnumbers\'01;}\fi-360\li2160}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'05.;}{\levelnumbers\'01;}\fi-360\li2520}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'06.;}{\levelnumbers\'01;}\fi-360\li2880}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'07.;}{\levelnumbers\'01;}\fi-360\li3240}
+{\listlevel\levelnfc0\leveljc0\levelstartat1\levelfollow0{\leveltext \'02\'08.;}{\levelnumbers\'01;}\fi-360\li3600}\listid1}
+{\list\listtemplateid2
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}
+{\listlevel\levelnfc255\leveljc0\levelstartat1\levelfollow2{\leveltext \'00;}{\levelnumbers;}\fi0\li0}\listid2}
+}{\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}{\*\generator LibreOffice/6.0.1.1$Windows_X86_64 LibreOffice_project/60bfb1526849283ce2491346ed2aa51c465abfe6}{\info{\creatim\yr0\mo0\dy0\hr0\min0}{\revtim\yr2019\mo3\dy29\hr15\min37}{\printim\yr0\mo0\dy0\hr0\min0}}{\*\userprops}\deftab720
+\hyphauto0\viewscale100
+{\*\pgdsctbl
+{\pgdsc0\pgdscuse451\pgwsxn12240\pghsxn15840\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\pgdscnxt0 Default Style;}}
+\formshade{\*\pgdscno0}\paperh15840\paperw12240\margl1134\margr1134\margt1134\margb1134\sectd\sbknone\sectunlocked1\pgndec\pgwsxn12240\pghsxn15840\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\ftnbj\ftnstart1\ftnrstcont\ftnnar\aenddoc\aftnrstcont\aftnstart1\aftnnrlc
+{\*\ftnsep\chftnsep}\pgndec\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033{\cf1\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+William Frank}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033{\cf1\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+3/29/19}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033{\cf1\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+HW8 \u8211\'3f Bayesian Networks and Independence}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\cf1\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\cf1\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033{\listtext\pard\plain  1.\tab}\ilvl0\ls1 \li1440\ri0\lin1440\rin0\fi-360\li720\ri0\lin720\rin0\fi-360{\cf1\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+Independences from Probability Tables}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\cf1\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033{\cf1\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+P(A, B, C) = P(A) * P(B | A) * P(C | AB)}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033{\cf1\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+f}{\cf1\sub\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+1}{\cf1\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+ = P(A), f}{\cf1\sub\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+2}{\cf1\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+ = P(B | A), f}{\cf1\sub\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+3}{\cf1\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+ =  P(C | AB).}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033{\cf1\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+f}{\cf1\sub\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+1}{\cf1\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+ and f}{\cf1\sub\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+2}{\cf1\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+ can be combined into f}{\cf1\sub\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+4}{\cf1\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+ = P(A, B), giving P(A, B, C) = f}{\cf1\sub\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+3}{\cf1\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+ * f}{\cf1\sub\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+4}{\cf1\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\cf1\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+
+\par \trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf17\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1361\clbrdrt\brdrs\brdrw10\brdrcf17\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx2665\clbrdrt\brdrs\brdrw10\brdrcf17\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9972\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\rtlch \ltrch\loch
+A}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\rtlch \ltrch\loch
+B}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\rtlch \ltrch\loch
+P(A, B)}\cell\row\pard\trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1361\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx2665\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9972\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+0}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+0}\cell\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\intbl{\rtlch \ltrch\loch
+0.13541666666}\cell\row\pard\trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1361\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx2665\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9972\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+0}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+1}\cell\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\intbl{\rtlch \ltrch\loch
+0.35416666666}\cell\row\pard\trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1361\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx2665\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9972\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+1}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+0}\cell\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\intbl{\rtlch \ltrch\loch
+0.11458333333}\cell\row\pard\trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1361\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx2665\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9972\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+1}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+1}\cell\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\intbl{\rtlch \ltrch\loch
+0.39583333333}\cell\row\pard\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\cf1\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+
+\par \trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf17\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1011\clbrdrt\brdrs\brdrw10\brdrcf17\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1978\clbrdrt\brdrs\brdrw10\brdrcf17\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx2947\clbrdrt\brdrs\brdrw10\brdrcf17\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9970\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\rtlch \ltrch\loch
+A}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\rtlch \ltrch\loch
+B}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\rtlch \ltrch\loch
+C}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\rtlch \ltrch\loch
+P(C | AB)}\cell\row\pard\trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1011\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1978\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx2947\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9970\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+0}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+0}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+0}\cell\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\intbl{\rtlch \ltrch\loch
+0.307692307692309}\cell\row\pard\trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1011\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1978\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx2947\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9970\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+0}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+0}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+1}\cell\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\intbl{\rtlch \ltrch\loch
+0.692307692307691}\cell\row\pard\trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1011\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1978\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx2947\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9970\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+0}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+1}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+0}\cell\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\intbl{\rtlch \ltrch\loch
+0.470588235294118}\cell\row\pard\trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1011\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1978\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx2947\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9970\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+0}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+1}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+1}\cell\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\intbl{\rtlch \ltrch\loch
+0.529411764705882}\cell\row\pard\trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1011\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1978\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx2947\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9970\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+1}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+0}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+0}\cell\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\intbl{\rtlch \ltrch\loch
+0.727272727272727}\cell\row\pard\trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1011\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1978\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx2947\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9970\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+1}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+0}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+1}\cell\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\intbl{\rtlch \ltrch\loch
+0.272727272727273}\cell\row\pard\trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1011\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1978\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx2947\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9970\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+1}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+1}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+0}\cell\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\intbl{\rtlch \ltrch\loch
+0.842105263157895}\cell\row\pard\trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1011\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1978\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx2947\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9970\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+1}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+1}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\langfe1033\rtlch \ltrch\loch
+1}\cell\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\intbl{\rtlch \ltrch\loch
+0.157894736842105}\cell\row\pard\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\cf1\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\cf1\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033{\listtext\pard\plain  2.\tab}\ilvl0\ls1 \li1440\ri0\lin1440\rin0\fi-360\li720\ri0\lin720\rin0\fi-360{\cf1\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+Please answer the following conditional independence questions from the model.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033{\listtext\pard\plain  1.\tab}\ilvl1\ls1 \li2160\ri0\lin2160\rin0\fi-360\li1080\ri0\lin1080\rin0\fi-360{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+A is not always independent of H. As there are arrows from A to H then it is possible to construct conditional probabilities such that A and H are dependent.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033{\listtext\pard\plain  2.\tab}\ilvl1\ls1 \li2160\ri0\lin2160\rin0\fi-360\li1080\ri0\lin1080\rin0\fi-360{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+A and C both affect F, which in turn affects H. Even if C is fixed, A and H can still be dependent.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033{\listtext\pard\plain  3.\tab}\ilvl1\ls1 \li2160\ri0\lin2160\rin0\fi-360\li1080\ri0\lin1080\rin0\fi-360{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+With a fixed C and F the model does not have any way for A to affect H. Therefore A is independent of H given C and F.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033{\listtext\pard\plain  4.\tab}\ilvl1\ls1 \li2160\ri0\lin2160\rin0\fi-360\li1080\ri0\lin1080\rin0\fi-360{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+This is a common cause with a fixed cause, therefore E and B are always independent given A.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033{\listtext\pard\plain  5.\tab}\ilvl1\ls1 \li2160\ri0\lin2160\rin0\fi-360\li1080\ri0\lin1080\rin0\fi-360{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+By observing F we fix the common effect of B and E, meaning that B and E are not always independent. }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033{\listtext\pard\plain  6.\tab}\ilvl1\ls1 \li2160\ri0\lin2160\rin0\fi-360\li1080\ri0\lin1080\rin0\fi-360{\cf1\kerning1\dbch\af6\langfe1081\rtlch \ltrch\loch\fs24\lang1033
+Because A is given B and E will be independent, even though C and F are fixed.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033{\listtext\pard\plain  3.\tab}\ilvl0\ls1 \li1440\ri0\lin1440\rin0\fi-360\li720\ri0\lin720\rin0\fi-360{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+Using inference by enumeration, compute the following probabilities.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033{\listtext\pard\plain  1.\tab}\ilvl1\ls1 \li2160\ri0\lin2160\rin0\fi-360\li1080\ri0\lin1080\rin0\fi-360{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+p(+b, -e|+a, +j, +m) = \uc2 \u945\'83\'bf p(+b) p(-e) p(+j | +a) p(+m | +a) p(+a | +b, -e)\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\fs24\lang1033
+ }{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+= \uc2 \u945\'83\'bf (.001) (.998) (.9) (.7) (.94) = \u945\'83\'bf 0.0005910156\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+\uc2 \u945\'83\'bf = 1 / (p(+b, -e|+a, +j, +m) + p(+b, +e|+a, +j, +m) + p(-b, -e|+a, +j, +m) + p(-b, +e|+a, +j, +m)) = 1 / (0.00059+ 0.0000012 + 0.00063 + 0.00037) = 1 / (0.00159) = 628.46\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+p(+b, -e|+a, +j, +m) = 628.46 * 0.0005910156 = 0.371}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033{\listtext\pard\plain  2.\tab}\ilvl1\ls1 \li2160\ri0\lin2160\rin0\fi-360\li1080\ri0\lin1080\rin0\fi-360{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+p(+b | +a) = \uc2 \u945\'83\'bf p(+b) \u931\'83\'b0_e p(e) p(+a | +b, e) \u931\'83\'b0_m p(m | +a) \u931\'83\'b0_j p(j | +a)\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+\uc2 \u931\'83\'b0_m p(m | +a) \u931\'83\'b0_j p(j | +a) = 1, therefore\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+p(+b | +a) = \uc2 \u945\'83\'bf p(+b) \u931\'83\'b0_e p(e) p(+a | +b, e)\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\fs24\lang1033
+ }{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+= \uc2 \u945\'83\'bf * 0.001 * ((0.998 * 0.94) + (0.002 * 0.95) = \u945\'83\'bf 0.00094\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+\uc2 \u945\'83\'bf = 1 / (p(+b | +a) + p(-b | +a)) = 1 / (0.00094 + 0.0016) = 393.7\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+p(+b | +a) = 393.7 * 0.00094 = 0.370}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033{\listtext\pard\plain  3.\tab}\ilvl1\ls1 \li2160\ri0\lin2160\rin0\fi-360\li1080\ri0\lin1080\rin0\fi-360{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+p(+b | +e, +a) = \uc2 \u945\'83\'bf p(+b) p(+e) p(+a | +b, +e) \u931\'83\'b0_m p(m | +a) \u931\'83\'b0_j p(j | +a)\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\fs24\lang1033
+ }{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+= \uc2 \u945\'83\'bf p(+b) p(+e) p(+a | +b, +e)\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\fs24\lang1033
+ }{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+= \uc2 \u945\'83\'bf (.001) (.002) (.95) = \u945\'83\'bf 0.0000019\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+\uc2 \u945\'83\'bf = 1 / (p(+b | +e, +a) + p(-b | +e, +a)) \uc1 \u8211\'3f 1 / (0.0000019 + 0.00058) = 1720.22}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+p(+b | +e, +a) = 1720.22 * 0.0000019 = 0.003}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+Given that the alarm is going off and there is/was an earthquake, it is very unlikely that there was also a burglary. As opposed to the previous answer, which told us if earthquake is unknown then the alarm going off means a 37.1% chance of a burglary.}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033{\listtext\pard\plain  4.\tab}\ilvl1\ls1 \li2160\ri0\lin2160\rin0\fi-360\li1080\ri0\lin1080\rin0\fi-360{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+p(+a | +j, -m) =  \uc2 \u945\'83\'bf p(+j | +a) p(-m | +a)  \u931\'83\'b0_e p(e) \u931\'83\'b0_b p(b) p(+a | b, e)\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+= \uc2 \u945\'83\'bf (.9) (.3) ((.998) ((.999) (.001)) ((.001) (.94))) ((.002) ((.999) (.29)) ((.001) (.95)))\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+=  \uc2 \u945\'83\'bf 1.34e-13\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+\uc2 \u945\'83\'bf = 1 / (p(+a | +j, -m) + p(-a | +j, -m)) = 1 / (1.34e-13 + 2.10e-13) = 2.86e12\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+p(+a | +j, -m) = 1.34e-13 * 2.86e12 = 0.398}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li720\ri0\lin720\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+Using variable elimination:}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033{\listtext\pard\plain  5.\tab}\ilvl1\ls1 \li2160\ri0\lin2160\rin0\fi-360\li1080\ri0\lin1080\rin0\fi-360{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+p(+b | +a) = p(+b) p(e) p(+a | +b, e) p(m | +a) p(j | +a)}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+Eliminating e:}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+p(e) p(+a | +b, e) => p(+a, e | +b) => p(+a | +b) = 0.94002}
+\par \trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf17\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1610\clbrdrt\brdrs\brdrw10\brdrcf17\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9970\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\langfe1033\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+e}\cell\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+p(+a, e | +b)}\cell\row\pard\trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1610\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9970\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+0}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+0.0019}\cell\row\pard\trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1610\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9970\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+1}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+0.93812}\cell\row\pard\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+p(+b | +a) = p(+b) p(+a | +b) p(m | +a) p(j | +a)}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+Eliminating m:}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+p(m | +a) => 1}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+p(+b | +a) = p(+b) p(+a | +b) p(j | +a)}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+Eliminating j:}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+p(j | +a) => 1}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+p(+b | +a) = p(+b) p(+a | +b)}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+p(+b | +a) = p(+b) p(+a | +b) = 0.001 * 0.94002 = 0.00094}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+0.00094 * \uc2 \u945\'83\'bf = 0.370\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033{\listtext\pard\plain  6.\tab}\ilvl1\ls1 \li2160\ri0\lin2160\rin0\fi-360\li1080\ri0\lin1080\rin0\fi-360{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+p(+a | +j, -m) =  \uc2 \u945\'83\'bf p(+j | +a) p(-m | +a) p(e) p(b) p(+a | b, e)\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+Eliminating b:}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+p(b) p(+a | b, e) => p(+a, b | e) => p(+a | e)}
+\par \trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf17\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1497\clbrdrt\brdrs\brdrw10\brdrcf17\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx2997\clbrdrt\brdrs\brdrw10\brdrcf17\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9972\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\langfe1033\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+b}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\langfe1033\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+e}\cell\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+p(+a, b | e)}\cell\row\pard\trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1497\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx2997\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9972\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+0}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+0}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+0.000999}\cell\row\pard\trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1497\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx2997\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9972\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+0}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+1}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+0.28971}\cell\row\pard\trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1497\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx2997\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9972\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+1}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+0}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+0.00094}\cell\row\pard\trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1497\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx2997\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9972\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+1}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+1}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+0.00095}\cell\row\pard\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf17\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1951\clbrdrt\brdrs\brdrw10\brdrcf17\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9970\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+e}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+p(+a | e)}\cell\row\pard\trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1951\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9970\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+0}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+0.001939}\cell\row\pard\trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1951\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9970\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+1}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+0.29066}\cell\row\pard\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+Eliminating e:}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+p(e) p(+a | e) => p(+a, e) =>  p(+a) = 0.290082558}
+\par \trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clbrdrt\brdrs\brdrw10\brdrcf17\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1522\clbrdrt\brdrs\brdrw10\brdrcf17\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9970\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+e}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+p(+a, e)}\cell\row\pard\trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1522\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9970\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+0}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+0.000003878}\cell\row\pard\trowd\trql\trleft0\ltrrow\trpaddft3\trpaddt0\trpaddfl3\trpaddl0\trpaddfb3\trpaddb0\trpaddfr3\trpaddr0\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clpadfr3\clpadr55\cellx1522\clpadfl3\clpadl55\clbrdrl\brdrs\brdrw10\brdrcf17\clpadft3\clpadt55\clbrdrb\brdrs\brdrw10\brdrcf17\clpadfb3\clpadb55\clbrdrr\brdrs\brdrw10\brdrcf17\clpadfr3\clpadr55\cellx9970\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+1}\cell\pard\plain \s21\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1033\dbch\af7\afs24\loch\f4\fs24\lang1033\intbl{\outl0\strike0\i0\shad0\ulnone\ulc0\b0\dbch\af7\rtlch \ltrch\loch\loch\f5\hich\af5
+0.29007868}\cell\row\pard\pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+p(+a | +j, -m) =  \uc2 \u945\'83\'bf p(+j | +a) p(-m | +a) p(+a) =  \u945\'83\'bf * 0.9 * 0.3 * 0.290082558 = \u945\'83\'bf  * 0.078. \uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+\uc2 \u945\'83\'bf = 1 / (p(+a | +j, -m) + p(-a | +j, -m)) = 1 / (0.078 + 0.191) = 3.703\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0{\cf1\kerning1\dbch\af6\langfe1033\rtlch \ltrch\loch\fs24\lang1033
+p(+a | +j, -m) =  3.703  * 0.078 = 0.290}
+\par \pard\plain \s0\ql\nowidctlpar\hyphpar0\ltrpar\cf1\kerning1\dbch\af7\langfe1081\dbch\af7\afs24\alang1081\loch\f4\fs24\lang1033\li1080\ri0\lin1080\rin0\fi0\rtlch \ltrch\loch
+
+\par }
