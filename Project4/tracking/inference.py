@@ -314,11 +314,12 @@ class ParticleFilter(InferenceModule):
             return
 
         # observe and reweight
+        # I stumbled on this method where you don't have to iterate every particle
         weights = util.Counter()
         beliefs = self.getBeliefDistribution()
         for x in self.legalPositions:
             dist = util.manhattanDistance(x, pacmanPosition)
-            weights[x] = beliefs[x] * emissionModel[dist]
+            weights[x] = emissionModel[dist] *  beliefs[x]
 
         # check if all weights are 0
         if weights.totalCount() == 0:
@@ -345,13 +346,16 @@ class ParticleFilter(InferenceModule):
         a belief distribution.
         """
         "*** YOUR CODE HERE ***"
+        # if the ghost is in jail it can't move
+        if self.particles[0] not in self.legalPositions:
+            return
+
         distributions = {}
         for p in self.legalPositions:
             distributions[p] = self.getPositionDistribution(self.setGhostPosition(gameState, p))
         
         for i in range(len(self.particles)):
-            if self.particles[i] == p:
-                self.particles[i] = util.sample(distributions[self.particles[i]])
+            self.particles[i] = util.sample(distributions[self.particles[i]])
 
 
     def getBeliefDistribution(self):
