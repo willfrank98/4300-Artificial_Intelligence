@@ -271,6 +271,8 @@ class ParticleFilter(InferenceModule):
         while j < self.numParticles:
             i = 0
             for p in self.legalPositions:
+                if j >= self.numParticles:
+                    return
                 if i % ratio < 1:
                     self.particles.append(p)
                 i += 1
@@ -314,12 +316,11 @@ class ParticleFilter(InferenceModule):
             return
 
         # observe and reweight
-        # I stumbled on this method where you don't have to iterate every particle
         weights = util.Counter()
-        beliefs = self.getBeliefDistribution()
-        for x in self.legalPositions:
-            dist = util.manhattanDistance(x, pacmanPosition)
-            weights[x] = emissionModel[dist] *  beliefs[x]
+        #beliefs = self.getBeliefDistribution()
+        for p in self.particles:
+            dist = util.manhattanDistance(p, pacmanPosition)
+            weights[p] += emissionModel[dist]
 
         # check if all weights are 0
         if weights.totalCount() == 0:
@@ -443,6 +444,20 @@ class JointParticleFilter:
         weight with each position) is incorrect and may produce errors.
         """
         "*** YOUR CODE HERE ***"
+        self.particles = []
+        ratio = float(len(self.legalPositions))/self.numParticles
+        j = 0
+        while j < self.numParticles:
+            i = 0
+            products = itertools.product(self.legalPositions, self.legalPositions)
+            for p in products:
+                if j >= self.numParticles:
+                    return
+                if i % ratio < 1:
+                    self.particles.append(p)
+                i += 1
+                j += 1
+
 
     def addGhostAgent(self, agent):
         """
@@ -490,6 +505,31 @@ class JointParticleFilter:
         emissionModels = [busters.getObservationDistribution(dist) for dist in noisyDistances]
 
         "*** YOUR CODE HERE ***"
+
+        # check if the ghost is in jail
+        for i in range(self.numGhosts):
+            if noisyDistances[i] == None:
+                self.particles = [self.getParticleWithGhostInJail(p, i) for p in self.particles]
+
+        # observe and reweight
+        weights = util.Counter()
+        for p in self.particles:
+            prob = 1
+            for i in range(len(p)):
+                if p[i] == self.getJailPosition(i):
+                    continue
+                dist = util.manhattanDistance(p[i], pacmanPosition)
+                prob *= emissionModels[i][dist]
+            weights[p] += prob
+
+        # check if all weights are 0
+        if weights.totalCount() == 0:
+            self.initializeParticles()
+            return
+            
+        # resample
+        newParticles = [util.sample(weights) for _ in  range(self.numParticles)]
+        self.particles = newParticles
 
     def getParticleWithGhostInJail(self, particle, ghostIndex):
         """
@@ -546,10 +586,14 @@ class JointParticleFilter:
         """
         newParticles = []
         for oldParticle in self.particles:
-            newParticle = list(oldParticle) # A list of ghost positions
+            prevGhostPositions = list(oldParticle) # A list of ghost positions
             # now loop through and update each entry in newParticle...
 
             "*** YOUR CODE HERE ***"
+            newParticle = []
+            for i in range(self.numGhosts):
+                newPosDist = getPositionDistributionForGhost(setGhostPositions(gameState, prevGhostPositions), i, self.ghostAgents[i])
+                newParticle.append(util.sample(newPosDist))
 
             "*** END YOUR CODE HERE ***"
             newParticles.append(tuple(newParticle))
@@ -557,7 +601,11 @@ class JointParticleFilter:
 
     def getBeliefDistribution(self):
         "*** YOUR CODE HERE ***"
-        util.raiseNotDefined()
+        distribution = util.Counter()
+        for p in self.particles:
+            distribution[p] += 1
+        distribution.normalize()
+        return distribution
 
 # One JointInference module is shared globally across instances of MarginalInference
 jointInference = JointParticleFilter()
