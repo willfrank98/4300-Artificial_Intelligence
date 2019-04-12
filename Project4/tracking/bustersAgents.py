@@ -169,7 +169,7 @@ class GreedyBustersAgent(BustersAgent):
         for beliefs in livingGhostPositionDistributions:
             maxProb = -float('inf')
             ghostPos = None
-            for pos, prob in beliefs:
+            for pos, prob in beliefs.items():
                 if prob > maxProb:
                     maxProb = prob
                     ghostPos = pos
